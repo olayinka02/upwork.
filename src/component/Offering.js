@@ -22,7 +22,7 @@ const Offering = () => {
 
          <Container  className="offeringbody">
             <Row >
-              <Col sm  data-aos="fade-up" className="offeringbox">
+              <Col  xs={12} md={3}  data-aos="fade-up" className="offeringbox">
                   <div>
                       <center><br/>
                          <h5>Basic</h5><br/>
@@ -38,7 +38,7 @@ const Offering = () => {
                      
                   </div>
               </Col>
-              <Col sm  data-aos="fade-up" className="offeringbox">
+              <Col xs={12} md={3}  data-aos="fade-up" className="offeringbox">
               <div>
               <center><br/>
                          <h5>Plus</h5><br/>
@@ -56,7 +56,7 @@ const Offering = () => {
                     
                 </div>
               </Col>
-              <Col sm  data-aos="fade-up" className="offeringbox">
+              <Col xs={12} md={3} data-aos="fade-up" className="offeringbox">
               <div>
               <center><br/>
                          <h5>Enterprise</h5><br/>

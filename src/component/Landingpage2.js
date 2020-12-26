@@ -14,7 +14,7 @@ import image8 from './image/image8.svg';
 
 const Landingpage2 = () => {
      useEffect(() => {
-       Aos.init({ duration: 1500 });
+       Aos.init({ duration: 2000 });
      }, []);
     return (
       <div>
@@ -24,72 +24,96 @@ const Landingpage2 = () => {
            <br/>
            <h5 className="landingpagehead">find quality talent and agencies</h5>
             <Row>
-              <Col sm data-aos="fade-up" className="colbody" >
-                  <Row sm className="imagebody">
+              <Col  xs={12} md={3}  >
+                <div  data-aos="fade-up" className="colbody">
+                <Row sm className="imagebody">
                     <img className="bodyImage" src={image1} alt="img" />
                   </Row>
                   <Row sm className="bodytext">
                     <p>Data Analytic</p>
                   </Row>
+                </div>
+                 
               </Col>
-              <Col sm data-aos="fade-up" className="colbody">
-              <Row sm className="imagebody">
+              <Col  xs={12} md={3}  >
+                <div  data-aos="fade-up" className="colbody">
+                <Row sm className="imagebody">
                     <img className="bodyImage" src={image2} alt="img" />
                   </Row>
                   <Row sm className="bodytext">
                     <p>Customer Service</p>
                   </Row>
+                </div>
+             
               </Col>
-              <Col sm data-aos="fade-up" className="colbody">
-              <Row sm className="imagebody">
+              <Col  xs={12} md={3} >
+                <div  data-aos="fade-up" className="colbody">
+                <Row sm className="imagebody">
                     <img className="bodyImage" src={image3} alt="img" />
                   </Row>
                   <Row sm className="bodytext">
                     <p>Admin Support</p>
                   </Row>
+                </div>
+              
               </Col>
-              <Col sm data-aos="fade-up" className="colbody">
-              <Row sm className="imagebody">
+              <Col  xs={12} md={3}  >
+                <div  data-aos="fade-up" className="colbody">
+                <Row sm className="imagebody">
                     <img className="bodyImage" src={image4} alt="img" />
                   </Row>
                   <Row sm className="bodytext">
                     <p>Enginnering</p>
                   </Row>
+                </div>
+             
               </Col>
             </Row>
 
             <Row>
-              <Col sm data-aos="fade-up" className="colbody">
-                  <Row sm className="imagebody">
+              <Col  xs={12} md={3} >
+                <div  data-aos="fade-up" className="colbody" >
+                <Row sm className="imagebody">
                     <img className="bodyImage" src={image5} alt="img" />
                   </Row>
                   <Row sm className="bodytext">
                     <p>Software Dev</p>
                   </Row>
+                </div>
+                  
               </Col>
-              <Col sm data-aos="fade-up" className="colbody">
-              <Row sm className="imagebody">
+              <Col  xs={12} md={3} >
+                <div  data-aos="fade-up" className="colbody">
+                <Row sm className="imagebody">
                     <img className="bodyImage" src={image6} alt="img" />
                   </Row>
                   <Row sm className="bodytext">
                     <p>Writing</p>
                   </Row>
+                </div>
+              
               </Col>
-              <Col sm data-aos="fade-up" className="colbody">
-              <Row sm className="imagebody">
+              <Col  xs={12} md={3} >
+                <div  data-aos="fade-up" className="colbody">
+                <Row sm className="imagebody">
                     <img className="bodyImage" src={image7} alt="img" />
                   </Row>
                   <Row sm className="bodytext">
                     <p>Sales & Marketing</p>
                   </Row>
+                </div>
+              
               </Col>
-              <Col sm data-aos="fade-up" className="colbody">
-              <Row sm className="imagebody">
+              <Col  xs={12} md={3}  >
+                <div  data-aos="fade-up" className="colbody">
+                <Row sm className="imagebody">
                     <img className="bodyImage" src={image8} alt="img" />
                   </Row>
                   <Row sm className="bodytext">
                     <p>Design & Creative</p>
                   </Row>
+                </div>
+             
               </Col>
             </Row>
           </Container><br/>

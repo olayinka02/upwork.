@@ -18,22 +18,22 @@ class Business extends Component {
 
          <Container fluid >
             <Row>
-              <Col sm-4>
+              <Col xs={6} md={2} >
                  <img src={businessimg1} className="businessimg" alt="bus" /> 
               </Col>
-              <Col sm-4>
+              <Col  xs={6}  md={2}>
               <img src={businessimg2} className="businessimgx" alt="bus" />
               </Col>
-              <Col sm-4>
+              <Col xs={6}  md={2} >
               <img src={businessimg3} className="businessimg" alt="bus" />
               </Col>
-              <Col sm-4>
+              <Col  xs={6} md={2}>
               <img src={businessimg4} className="businessimg" alt="bus" />
               </Col>
-              <Col sm-4>
+              <Col  xs={6}  md={2}>
               <img src={businessimg5} className="businessimg" alt="bus" />
               </Col>
-              <Col sm-4>
+              <Col  xs={6}  md={2}>
               <img src={businessimg6} className="businessimgx" alt="bus" />
               </Col>
             </Row>
