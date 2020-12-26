@@ -1,0 +1,561 @@
+html{
+	overflow-x: hidden;
+	
+}
+.btn{
+    margin-right: 1rem;
+    margin-bottom: 1.5rem;
+}
+.nav-bar{
+    box-shadow: 0.3px -0.9px 1px 0.5px grey;
+    background-color:#2E4052;
+    position: fixed;
+    width:100%;
+}
+.navname{
+    color: white;
+
+}
+.navname:hover{
+    color: yellowgreen;
+}
+.nav-bar-two{
+  
+    display: inline;
+    box-shadow: 0.2px -0.9px 0.5px 0.5px grey;
+    height: 10.2rem;  
+    background-color:#2E4052;
+    padding-top: 0.7rem; 
+}
+.navlink{
+    color:white;
+    text-decoration:none;
+    font-size: 0.99rem;
+
+
+}
+
+
+.form{
+    width: 50rem;
+    background-color:#44688d;
+}
+
+.landingpage{
+    background-color:#2E4052;
+    width:100%;
+    height: 30rem;
+
+}
+.talentdiv{
+    width: 13rem;
+    margin-left:1.0rem;
+    margin-top: 4rem;
+    
+}
+.talentdivhead{
+    color: yellowgreen;
+    font-size: 2.8rem;
+    font-weight:850;
+    font-family: 'luna';
+    width: 20rem;
+}
+.talentdivhead2{
+    color: white;
+    font-size: 2.0rem;
+    font-weight:750;
+    font-family: 'luna';
+    width: 16rem;
+}
+.talentdivhead3{
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'luna';
+    width: 18rem;
+}
+.formsearch{
+    width: 12rem;
+    margin-left: 1.0rem;
+    color: yellowgreen;
+    border: 3px whitesmoke;
+}
+.enterprises{
+    color: yellowgreen;
+    margin-left:1.0rem;
+}
+
+img.mybabe{
+   
+   display: none;
+}
+.landingpage2{
+  
+   padding-right: 0 auto;
+   
+    background-color:whitesmoke;
+}
+img.bodyImage{
+    width: 8rem;
+    height: 9rem;
+}
+.colbody{
+   margin:2.1rem;
+   width:6rem;
+   height:10rem;
+    background-color:white;
+    box-shadow: 0px 12px 18px -6px rgb(0, 0, 0, 0.3);
+    border: 2px  rgb(32, 32, 30);
+    justify-content: center;
+    border-radius: 0.2rem;
+    color:green;
+    
+}
+.landingpagehead{
+    margin-left: 2.0rem;
+}
+.imagebody{
+    justify-content: center;
+}
+.bodytext{
+    background-color: white;
+   justify-content: center;
+}
+div.bus{
+    background-color: whitesmoke;
+}
+div.business{
+    width: 100%;
+    height: 28rem;
+    padding-left: 1.5rem;
+    background-color:rgb(192, 190, 190);
+    box-shadow: 0px 12px 18px -6px rgb(0, 0, 0, 0.3);
+}
+img.businessimg{
+    width: 8rem;
+}
+img.businessimgx{
+    width: 8rem;
+    margin-top: 2.5rem;
+}
+div.scope{
+    width: 100%;
+    height: 20rem;
+    background-color: white;
+}
+.scopebody{
+    height: 15rem;
+    background-color: white;
+    box-shadow: 0px 12px 18px -6px rgb(0, 0, 0, 0.3);
+    margin-top: 4rem;
+}
+.firstscope{
+    background-color: whitesmoke;
+    justify-content: center;
+    height: 15rem;
+    padding-top: 6rem;
+    margin: 1rem;
+}
+div.line{
+    width: 2.5rem;
+    height:0.4rem;
+    background-color: yellowgreen;
+    margin-top: 3rem;
+    
+}
+div.work{
+    width: 100%;
+    height: 70rem;
+    background-color: whitesmoke;
+    margin-top: 20rem;
+    padding:2.0rem;
+}
+div.imgworkbg{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 100% 100%;
+    background-color:white ;
+    border:2px black;
+}
+img.imgwork{
+    width: 6rem;
+    height: 8rem;
+}
+center.offeringhead{
+    padding: 0.6rem;
+}
+div.offering{
+    background-color: rgb(226, 225, 225);
+    width: 100%;
+    height:120rem;
+    box-shadow: 0px 12px 18px -6px rgb(0, 0, 0, 0.3);
+}
+.offeringbox{
+    background-color:white;
+    border: 2px thin black;
+    border-radius: 3px;
+    height: 30rem;
+    width: 3rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    box-shadow: 0px 12px 18px -6px rgb(0, 0, 0, 0.3);
+}
+div.customerrate{
+    background-color: white;
+    width: 100%;
+    height: 4rem;
+    margin-top: 5rem;
+}
+div.videopage{
+    width: 100%;
+    height:22rem;
+    background-color:#2E4052 ;
+}
+div.videobodyone{
+    padding:1.8rem;
+    width:15rem;
+}
+div.videobodyone h1{
+    color: yellowgreen;
+    font-weight: bold;
+    font-family: 'luna';
+    width:20rem;
+    font-size: 2.7rem;
+}
+div.videobodyone p{
+    color: white;
+    font-family: 'luna';
+    width: 20rem;
+    font-size: 1.0rem;
+}
+
+center iframe{
+   display: none;
+}
+.navfoot{
+    background-color:#2E4052 ;
+    width: 100%;
+    height:65rem;
+    padding-top: 5rem;
+
+}
+center p.longterm{
+    color: white;
+}
+.listednavfoot{
+    color: white;
+}
+
+
+
+
+
+
+
+@media (min-width: 576px) {
+
+ }
+
+
+@media (min-width: 768px) { 
+
+ }
+
+
+@media (min-width: 992px) { 
+
+    .btn{
+        margin-right: 1rem;
+       margin-bottom: 0.2rem;
+    }
+    .nav-bar{
+        box-shadow: 0.3px -0.9px 1px 0.5px grey;
+        width: 100%;
+        position: fixed;
+    }
+    .nav-bar-two{
+        display: inline;
+        box-shadow: 0.2px -0.9px 0.5px 0.5px grey;
+        height: 1.8rem;  
+        font-size: 0.9rem;
+        background-color: #2E4052;
+        padding-top: 0.0rem;
+    }
+    .navname{
+        color: white;
+    
+    }
+    .navname:hover{
+        color: yellowgreen;
+    }
+    .form{
+        width: 50rem;
+    }
+    .navlink{
+        color:white;
+        text-decoration:none;
+        font-size: 1.5rem;
+    
+    }
+    .navlink:hover{
+        color:yellowgreen;
+        font-size:0.999rem ;
+        font-weight:500;
+        font-style: italic;
+    }
+   
+
+
+
+ }
+
+
+
+
+
+
+
+@media (min-width: 1200px) { 
+    .btn{
+        margin-right: 1rem;
+       margin-bottom: 0.2rem;
+    }
+    .nav-bar{
+        box-shadow: 0.3px -0.9px 1px 0.5px grey;
+        width: 100%;
+        position: fixed;
+    }
+    .nav-bar-two{
+        display: inline;
+        box-shadow: 0.2px -0.9px 0.5px 0.5px grey;
+        height: 1.8rem;  
+        font-size: 0.9rem;
+        background-color: white;
+    }
+    .form{
+        width: 50rem;
+    }
+    .navname{
+        color: white;
+    
+    }
+    .navname:hover{
+        color: yellowgreen;
+    }
+    .navlink{
+        color:black;
+        text-decoration:none;
+        font-size: 0.8rem;
+    
+    }
+    .navlink:hover{
+        color:yellowgreen;
+        font-size:0.999rem ;
+        font-weight:500;
+        font-style: italic;
+    }
+    .talentdiv{
+        width: 20rem;
+        margin-left:4rem;
+        margin-top: 4rem;
+        
+    }
+    .talentdivhead{
+        color: yellowgreen;
+        font-size: 3.2rem;
+        font-weight:850;
+        font-family: 'luna';
+        width: 26rem;
+    }
+    .talentdivhead2{
+        color: white;
+        font-size: 3.2rem;
+        font-weight:750;
+        font-family: 'luna';
+        width: 26rem;
+    }
+    .talentdivhead3{
+        color: white;
+        font-size: 1.4rem;
+        font-family: 'luna';
+        width: 28rem;
+    }
+    .formsearch{
+        width: 12rem;
+        margin-left: 4rem;
+        color: yellowgreen;
+        border: 3px whitesmoke;
+    }
+    .enterprises{
+        color: yellowgreen;
+        margin-left:4rem;
+    }
+    .landingpage2{
+  
+        padding-right: 0 auto;
+        
+         background-color:whitesmoke;
+     }
+     img.mybabe{
+        display: block;
+        margin-right:-3rem;
+        height: 30rem;
+        width: 44rem;
+    }
+     img.bodyImage{
+         width: 7rem;
+         height: 8rem;
+     }
+     .colbody{
+        margin:1rem;
+       
+        height:10rem;
+         background-color: rgb(192, 190, 190);
+         box-shadow: 0px 12px 18px -6px rgb(0, 0, 0, 0.3);
+         border: 2px  rgb(32, 32, 30);
+         justify-content: center;
+         border-radius: 0.2rem;
+         color:green;
+         
+     }
+     .landingpagehead{
+        margin-left: 0.0rem;
+    }
+     .imagebody{
+         justify-content: center;
+     }
+     .bodytext{
+         background-color: white;
+        justify-content: center;
+     }
+     div.business{
+        width: 100%;
+        height: 13rem;
+        background-color:rgb(192, 190, 190);
+        box-shadow: 0px 12px 18px -6px rgb(0, 0, 0, 0.3);
+    }
+    img.businessimg{
+        width: 11rem;
+    }
+    img.businessimgx{
+        width: 11rem;
+        margin-top: 2.5rem;
+    }
+    div.scope{
+        width: 100%;
+        height: 20rem;
+        background-color: white;
+    }
+    .scopebody{
+        height: 15rem;
+        background-color: white;
+        box-shadow: 0px 12px 18px -6px rgb(0, 0, 0, 0.3);
+        margin-top: 4rem;
+    }
+    .firstscope{
+        background-color: whitesmoke;
+        justify-content: center;
+        height: 15rem;
+        padding-top: 6rem;
+        margin: 0rem;
+    }
+    div.line{
+        width: 2.5rem;
+        height:0.4rem;
+        background-color: yellowgreen;
+        margin-top: 3rem;
+        
+    }
+    div.work{
+        width: 100%;
+        height: 30rem;
+        background-color: whitesmoke;
+        margin-top: 4rem;
+        padding: 0rem;
+        
+    }
+    div.imgworkbg{
+        width: 7rem;
+        height: 7rem;
+        border-radius: 100% 100%;
+        background-color:white ;
+        border:2px black;
+    }
+    img.imgwork{
+        width: 6rem;
+        height: 8rem;
+    }
+    center.offeringhead{
+        padding: 0rem;
+    }
+    div.offering{
+        background-color: rgb(226, 225, 225);
+        width: 100%;
+        height:43rem;
+        box-shadow: 0px 12px 18px -6px rgb(0, 0, 0, 0.3);
+    }
+    .offeringbox{
+        background-color:white;
+        border: 2px thin black;
+        border-radius: 3px;
+        height: 30rem;
+        width: 3rem;
+        margin-left: 5rem;
+        margin-top: 0rem;
+        margin-right: 0rem;
+        box-shadow: 0px 12px 18px -6px rgb(0, 0, 0, 0.3);
+    }
+    div.customerrate{
+        background-color: white;
+        width: 100%;
+        height: 4rem;
+        margin-top: 5rem;
+    }div.videopage{
+        width: 100%;
+        height:22rem;
+        background-color:#2E4052 ;
+    }
+    div.videobodyone{
+        padding:4rem;
+        width:15rem;
+    }
+    div.videobodyone h1{
+        color: yellowgreen;
+        font-weight: bold;
+        font-family: 'luna';
+        width:20rem;
+        font-size: 2.7rem;
+    }
+    div.videobodyone p{
+        color: white;
+        font-family: 'luna';
+        width: 20rem;
+        font-size: 1.0rem;
+    }
+    center iframe{
+        padding: 3rem;
+        display: inline;
+       
+    }
+    .navfoot{
+        background-color:#2E4052 ;
+        width: 100%;
+        height:35rem;
+        padding-top: 5rem;
+    
+    }
+    center p.longterm{
+        color: white;
+    }
+    .listednavfoot{
+        color: white;
+    }
+    
+    
+    
+    
+     
+     
+    
+
+ }
