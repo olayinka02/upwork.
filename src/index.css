@@ -9,7 +9,7 @@ html{
 .nav-bar{
     box-shadow: 0.3px -0.9px 1px 0.5px grey;
     background-color:#2E4052;
-    position: fixed;
+   
     width:100%;
 }
 .navname{
@@ -323,10 +323,10 @@ center p.longterm{
     .nav-bar{
         box-shadow: 0.3px -0.9px 1px 0.5px grey;
         width: 100%;
-        position: fixed;
+       
     }
     .nav-bar-two{
-        display: inline;
+       
         box-shadow: 0.2px -0.9px 0.5px 0.5px grey;
         height: 1.8rem;  
         font-size: 0.9rem;
