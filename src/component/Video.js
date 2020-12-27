@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Container   } from 'react-bootstrap';
+import { Row, Col, Container, Button   } from 'react-bootstrap';
 
 
 class Video extends Component {
@@ -14,6 +14,7 @@ class Video extends Component {
                   <div className="videobodyone">
                   <h1>Instapage saved $2.3M with Upwork</h1>
                   <p>"Upwork took a lot of stress off of growing with minimal resources"</p>
+                  <Button className="btn" variant="success" size="sm" >Read more</Button>
                  
                  
 

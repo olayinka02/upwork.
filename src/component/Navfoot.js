@@ -2,7 +2,10 @@ import React, {  useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { Row, Col, Container,   } from 'react-bootstrap';
-//import babe from './image/babe.jpg';
+import icon1 from './image/icon1.png';
+import icon2 from './image/icon2.png';
+import icon3 from './image/icon3.png';
+import icon4 from './image/icon4.png';
 
 const Navfoot = () => {
   useEffect(() => {
@@ -61,7 +64,27 @@ const Navfoot = () => {
                   </ul>
              
                </Col>
+
               
+            </Row><br/><br/>
+            <Row>
+                <Col md={4} xs={12} >
+                    <div style={{display:'inline',}}>
+                        <p style={{color:'yellowgreen',}}>follow us</p>
+                        <img src={icon1} alt="icon" className="iconimage" />
+                        <img src={icon2} alt="icon" className="iconimage" />
+                        <img src={icon3} alt="icon" className="iconimage" />
+                        <img src={icon4} alt="icon" className="iconimage" />
+                    </div>
+                   
+                </Col>
+                <Col md={{ span: 4, offset: 4 }} xs={12}>
+                    <address style={{color:'white',paddingLeft:3,}}>
+                        nO 16, Itako Wuse 2, Abuja FCT,Nigeria.
+                        <p>08101831001<br/>
+                        07035764622</p>
+                    </address>
+                </Col>
             </Row>
           </Container>
           

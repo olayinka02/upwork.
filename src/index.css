@@ -1,5 +1,6 @@
 html{
-	overflow-x: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
 	
 }
 .btn{
@@ -9,6 +10,7 @@ html{
 .nav-bar{
     box-shadow: 0.3px -0.9px 1px 0.5px grey;
     background-color:#2E4052;
+    position: relative;
    
     width:100%;
 }
@@ -21,7 +23,7 @@ html{
 }
 .nav-bar-two{
   
-    
+    position: relative;
     box-shadow: 0.2px -0.9px 0.5px 0.5px grey;
     height: 10.2rem;  
     background-color:#2E4052;
@@ -102,7 +104,7 @@ img.bodyImage{
    margin-left: auto;
    margin-right: auto;
    margin-top: 2rem;
-   width:20rem;
+   width:18rem;
    height:10rem;
     background-color:lightgray;
     box-shadow: 0px 12px 18px -6px rgb(0, 0, 0, 0.3);
@@ -128,7 +130,7 @@ div.bus{
 div.business{
     width: 100%;
     height: 28rem;
-    padding-left: 1.5rem;
+    padding-left: 0.5rem;
     background-color:rgb(192, 190, 190);
     box-shadow: 0px 12px 18px -6px rgb(0, 0, 0, 0.3);
 }
@@ -166,7 +168,7 @@ div.line{
 }
 div.work{
     width: 100%;
-    height: 70rem;
+    height: 76rem;
     background-color: whitesmoke;
     margin-top: 20rem;
     padding:2.0rem;
@@ -188,7 +190,7 @@ center.offeringhead{
 div.offering{
     background-color: rgb(226, 225, 225);
     width: 100%;
-    height:120rem;
+    height:126rem;
     box-shadow: 0px 12px 18px -6px rgb(0, 0, 0, 0.3);
 }
 .offeringbox{
@@ -196,7 +198,11 @@ div.offering{
     border: 2px thin black;
     border-radius: 3px;
     height: 30rem;
-    width: 3rem;
+    padding-right:0.5rem;
+    padding-left: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width:17.5rem;
     margin-top: 2rem;
    justify-content: center;
     box-shadow: 0px 12px 18px -6px rgb(0, 0, 0, 0.3);
@@ -213,20 +219,20 @@ div.videopage{
     background-color:#2E4052 ;
 }
 div.videobodyone{
-    padding:1.8rem;
-    width:15rem;
+    padding:0.5rem;
+    width:10rem;
 }
 div.videobodyone h1{
     color: yellowgreen;
     font-weight: bold;
     font-family: 'luna';
-    width:20rem;
+    width:17rem;
     font-size: 2.7rem;
 }
 div.videobodyone p{
     color: white;
     font-family: 'luna';
-    width: 20rem;
+    width: 15rem;
     font-size: 1.0rem;
 }
 
@@ -236,8 +242,9 @@ center iframe{
 .navfoot{
     background-color:#2E4052 ;
     width: 100%;
-    height:65rem;
+    height:68rem;
     padding-top: 5rem;
+   
 
 }
 center p.longterm{
@@ -245,6 +252,10 @@ center p.longterm{
 }
 .listednavfoot{
     color: white;
+}
+.iconimage{
+    width: 3rem;
+    height:3rem;
 }
 
 
@@ -272,10 +283,10 @@ center p.longterm{
     .nav-bar{
         box-shadow: 0.3px -0.9px 1px 0.5px grey;
         width: 100%;
-        position: fixed;
+        position: relative;;
     }
     .nav-bar-two{
-        display: inline;
+       position: relative;
         box-shadow: 0.2px -0.9px 0.5px 0.5px grey;
         height: 1.8rem;  
         font-size: 0.9rem;
@@ -324,10 +335,11 @@ center p.longterm{
     .nav-bar{
         box-shadow: 0.3px -0.9px 1px 0.5px grey;
         width: 100%;
+        position: relative;
        
     }
     .nav-bar-two{
-       
+        position: relative;
         box-shadow: 0.2px -0.9px 0.5px 0.5px grey;
         height: 1.8rem;  
         font-size: 0.9rem;
@@ -502,8 +514,10 @@ center p.longterm{
         border: 2px thin black;
         border-radius: 3px;
         height: 30rem;
-        width: 3rem;
-        margin-left: 5rem;
+        padding-right:0.5rem;
+        padding-left: auto;
+        width: 17rem;
+        margin-left:8rem;
         margin-top: 0rem;
         margin-right: 0rem;
         box-shadow: 0px 12px 18px -6px rgb(0, 0, 0, 0.3);
@@ -543,8 +557,9 @@ center p.longterm{
     .navfoot{
         background-color:#2E4052 ;
         width: 100%;
-        height:35rem;
+        height:33rem;
         padding-top: 5rem;
+      
     
     }
     center p.longterm{
@@ -553,6 +568,11 @@ center p.longterm{
     .listednavfoot{
         color: white;
     }
+    .iconimage{
+        width: 3rem;
+        height:3rem;
+    }
+    
     
     
     

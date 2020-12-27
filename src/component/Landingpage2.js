@@ -14,7 +14,7 @@ import image8 from './image/image8.svg';
 
 const Landingpage2 = () => {
      useEffect(() => {
-       Aos.init({ duration: 2000 });
+       Aos.init({ duration: 1000 });
      }, []);
     return (
       <div>
@@ -116,7 +116,7 @@ const Landingpage2 = () => {
              
               </Col>
             </Row>
-          </Container><br/>
+          </Container><br/><br/>
           <center>
             <p>Don’t see what you’re looking for? <span style={{color:'yellowgreen',fontWeight:'bold',}}> See all categories</span></p>
           </center>
