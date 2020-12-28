@@ -9,7 +9,7 @@ const Skills = () => {
      Aos.init({duration: 2000 });
   }, []);
     return (
-      <div style={{backgroundColor:'whitesmoke',paddingTop:6 + 'rem',paddingBottom:4 + 'rem',}}>
+      <div style={{backgroundColor:'whitesmoke',paddingTop:6 + 'rem',paddingBottom:4 + 'rem',width:100 + '%',}}>
          <div  >
 
          <Container data-aos="fade-up" >

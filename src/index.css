@@ -28,7 +28,8 @@ html{
     box-shadow: 0.2px -0.9px 0.5px 0.5px grey;
     height: 10.2rem;  
     background-color:#2E4052;
-    padding-top: 0.7rem; 
+    padding-top: 0.7rem;
+    width: 100%;
 }
 .navlink{
     color:white;
@@ -94,7 +95,7 @@ img.mybabe{
 .landingpage2{
   
    padding-right: 0 auto;
-   
+   width: 100%;
     background-color:whitesmoke;
 }
 img.bodyImage{
