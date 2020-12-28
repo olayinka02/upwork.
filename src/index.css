@@ -4,6 +4,9 @@ html{
     width:100%;
 	
 }
+body{
+    width: 100%;
+}
 .btn{
     margin-right: 1rem;
     margin-bottom: 1.5rem;
@@ -259,6 +262,9 @@ center p.longterm{
     width: 3rem;
     height:3rem;
 }
+div.Appbody{
+    width: 100%;
+}
 
 
 
@@ -333,6 +339,9 @@ center p.longterm{
     .btn{
         margin-right: 1rem;
        margin-bottom: 0.2rem;
+    }
+    body{
+        width: 100%;
     }
     .nav-bar{
         box-shadow: 0.3px -0.9px 1px 0.5px grey;
@@ -574,6 +583,10 @@ center p.longterm{
         width: 3rem;
         height:3rem;
     }
+    div.Appbody{
+        width: 100%;
+    }
+    
     
     
     

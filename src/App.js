@@ -17,7 +17,7 @@ import Navfoot from './component/Navfoot';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div classname="Appbody">
         <Navbarx />
         <Landingpage />
         <Landingpage2 />
