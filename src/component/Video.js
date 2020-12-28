@@ -23,7 +23,7 @@ class Video extends Component {
               </Col>
               <Col sm>
                 <center>
-                <iframe src="https://player.vimeo.com/video/60742256"  title="video" width="600" height="330" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                <iframe src="https://player.vimeo.com/video/60742256"  title="video" width="630" height="340" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
                 </center>
               
               </Col>

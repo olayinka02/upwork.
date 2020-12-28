@@ -9,7 +9,7 @@ const Scope = () => {
      Aos.init({duration: 2000 });
   }, []);
     return (
-      <div style={{backgroundColor:'whitesmoke',}}>
+      <div className="scopex">
          <div className="scope" >
 
          <Container data-aos="fade-up" className="scopebody">

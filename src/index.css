@@ -265,6 +265,10 @@ center p.longterm{
 div.Appbody{
     width: 100%;
 }
+div.scopex{
+    background-color: whitesmoke;
+    width: 100%;
+}
 
 
 
@@ -584,6 +588,10 @@ div.Appbody{
         height:3rem;
     }
     div.Appbody{
+        width: 100%;
+    }
+    div.scopex{
+        background-color: whitesmoke;
         width: 100%;
     }
     
